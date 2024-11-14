@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__wrapper">
+        <nav class="header__mobile-nav">
+          <a href="#" class="header__link">Продукты</a>
+          <a href="#" class="header__link">Цвета</a>
+          <a href="#" class="header__link">Вдохновение</a>
+          <a href="#" class="header__link">Советы</a>
+          <a href="#" class="header__link">Найти магазин</a>
+        </nav>
+        <button class="header__burger">
+          <div class="central__line"></div>
+        </button>
+        <div class="header__left">
+          <a href="/index.html" class="logo">
+            <img src="/images/logo.png" alt="" />
+          </a>
+          <nav class="header__navigation">
+            <a href="#" class="header__link">Продукты</a>
+            <a href="#" class="header__link">Цвета</a>
+            <a href="#" class="header__link">Вдохновение</a>
+            <a href="#" class="header__link">Советы</a>
+            <a href="#" class="header__link">Найти магазин</a>
+          </nav>
+        </div>
+        <div class="header__right">
+          <div class="header__phone">
+            <a href="tel:+74952217769" class="header__phone-link">+7 (495) 221-77-69</a>
+            <p class="header__phone-title">Заказать звонок</p>
+          </div>
+          <div class="header__user-info">
+            <button class="header__user-info_btn">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.16667 15.8333C12.8486 15.8333 15.8333 12.8486 15.8333 9.16667C15.8333 5.48477 12.8486 2.5 9.16667 2.5C5.48477 2.5 2.5 5.48477 2.5 9.16667C2.5 12.8486 5.48477 15.8333 9.16667 15.8333Z"
+                  stroke-width="1.4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M17.5 17.5L13.875 13.875"
+                  stroke-width="1.4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+            <button class="header__user-info_btn">
+              <svg
+                width="22"
+                height="22"
+                viewBox="0 0 22 22"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_8_30)">
+                  <circle cx="11" cy="23" r="8.4" stroke-width="1.2" />
+                  <circle cx="11" cy="7" r="3.4" stroke-width="1.2" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_8_30">
+                    <rect width="22" height="22" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </button>
+            <button class="header__user-info_btn">
+              <svg
+                width="22"
+                height="22"
+                viewBox="0 0 22 22"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11.0009 19C10.745 19.0001 10.4978 18.9074 10.3052 18.739C9.57966 18.1047 8.87674 17.5067 8.25817 16.9802C6.65691 15.7048 5.16127 14.3023 3.78581 12.7865C2.67695 11.5918 2.0423 10.0341 2.00085 8.4053C1.97621 6.99164 2.48598 5.62067 3.42845 4.56595C3.88583 4.0681 4.44256 3.67154 5.06275 3.40184C5.68294 3.13214 6.35283 2.9953 7.0292 3.00012C8.05552 2.99541 9.053 3.3392 9.8581 3.97514C10.2942 4.31625 10.6791 4.71815 11.0009 5.16854C11.3231 4.71841 11.7082 4.31682 12.1446 3.97605C12.9489 3.34036 13.9453 2.99628 14.9708 3.00012C15.6472 2.9953 16.3171 3.13214 16.9372 3.40184C17.5574 3.67154 18.1142 4.0681 18.5715 4.56595C19.514 5.62067 20.0238 6.99164 19.9991 8.4053C19.9585 10.0337 19.3249 11.5915 18.2169 12.7865C16.8425 14.3013 15.3481 15.7028 13.7482 16.9775C13.1287 17.5049 12.4267 18.1029 11.6975 18.7399C11.5045 18.9081 11.257 19.0005 11.0009 19V19Z"
+                  stroke-width="1.2"
+                />
+              </svg>
+            </button>
+            <button class="header__user-info_btn header__user-info_btn-card">0</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="shopping-card">
+      <div class="shopping-card__overlay"></div>
+      <div class="shopping-card__container">
+        <div class="shopping-card__header">
+          <h2 class="shopping-card__header_title">Корзина</h2>
+          <button class="shopping-card__header_close-btn">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M18 6L6 18"
+                stroke="#1F2020"
+                stroke-width="1.4"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M6 6L18 18"
+                stroke="#1F2020"
+                stroke-width="1.4"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="shopping-card-empty">
+          <h2 class="shopping-card-empty_title">Ваша корзина пуста</h2>
+        </div>
+        <div class="shopping-card-order">
+          <div class="shopping-card__body">
+            <div class="shopping-card__body_info">
+              <p class="shopping-card__body_info-title">4 товара</p>
+              <button class="shopping-card__body_info-btn">очистить список</button>
+            </div>
+            <div class="shopping-card__body_cards"></div>
+          </div>
+          <div class="shopping-card__footer">
+            <div class="shopping-card__footer_price-content">
+              <p class="shopping-card__footer_price-title">Итого</p>
+              <p class="shopping-card__footer_price">14 400 ₽</p>
+            </div>
+            <button class="shopping-card__footer_buy-btn">Оформить заказ</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main>
+      <section class="slider">
+        <div class="slider__menu">
+          <a href="" class="slider__menu-item">Главная</a>
+          <a href="" class="slider__menu-item">Продукты</a>
+          <a href="" class="slider__menu-item">Краски</a>
+        </div>
+        <button class="slider__prev">
+          <svg
+            width="80"
+            height="80"
+            viewBox="0 0 80 80"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M30 60L50 40L30 20"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+        <div class="slider__slides">
+          <div class="slider__slide">
+            <img src="/images/slider.png" alt="" />
+            <div class="slider__content">
+              <h2 class="slider__title">Краски</h2>
+              <h3 class="slider__subtitle">
+                Идеально подходят для стен и других поверхностей. Найди свой идеальный цвет!
+              </h3>
+            </div>
+          </div>
+          <div class="slider__slide">
+            <img src="/images/slider.png" alt="" />
+            <div class="slider__content">
+              <h2 class="slider__title">Краски</h2>
+              <h3 class="slider__subtitle">
+                Идеально подходят для стен и других поверхностей. Найди свой идеальный цвет!
+              </h3>
+            </div>
+          </div>
+          <div class="slider__slide">
+            <img src="/images/slider.png" alt="" />
+            <div class="slider__content">
+              <h2 class="slider__title">Краски</h2>
+              <h3 class="slider__subtitle">
+                Идеально подходят для стен и других поверхностей. Найди свой идеальный цвет!
+              </h3>
+            </div>
+          </div>
+          <div class="slider__slide">
+            <img src="/images/slider.png" alt="" />
+            <div class="slider__content">
+              <h2 class="slider__title">Краски</h2>
+              <h3 class="slider__subtitle">
+                Идеально подходят для стен и других поверхностей. Найди свой идеальный цвет!
+              </h3>
+            </div>
+          </div>
+          <div class="slider__slide">
+            <img src="/images/slider.png" alt="" />
+            <div class="slider__content">
+              <h2 class="slider__title">Краски</h2>
+              <h3 class="slider__subtitle">
+                Идеально подходят для стен и других поверхностей. Найди свой идеальный цвет!
+              </h3>
+            </div>
+          </div>
+          <div class="slider__slide">
+            <img src="/images/slider.png" alt="" />
+            <div class="slider__content">
+              <h2 class="slider__title">Краски</h2>
+              <h3 class="slider__subtitle">
+                Идеально подходят для стен и других поверхностей. Найди свой идеальный цвет!
+              </h3>
+            </div>
+          </div>
+        </div>
+        <button class="slider__next">
+          <svg
+            width="80"
+            height="80"
+            viewBox="0 0 80 80"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M30 60L50 40L30 20"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+        <div class="pagination"></div>
+      </section>
+      <section class="content">
+        <aside class="content__aside">
+          <div class="content__aside_overlay"></div>
+          <div class="content__aside-items">
+            <button class="content__aside_close-btn"></button>
+            <div class="content__aside-wrapper">
+              <div class="content__aside-item">
+                <input type="checkbox" name="" id="new" data-value="new" />
+                <label for="new"> </label>
+                <p>Новинки</p>
+              </div>
+              <div class="content__aside-item">
+                <input type="checkbox" name="" id="availability" data-value="availability" />
+                <label for="availability"> </label>
+                <p>Есть в наличии</p>
+              </div>
+              <div class="content__aside-item">
+                <input type="checkbox" name="" id="contract" data-value="contract" />
+                <label for="contract"> </label>
+                <p>Контрактные</p>
+              </div>
+              <div class="content__aside-item">
+                <input type="checkbox" name="" id="exclusive" data-value="exclusive" />
+                <label for="exclusive"> </label>
+                <p>Эксклюзивные</p>
+              </div>
+              <div class="content__aside-item">
+                <input type="checkbox" name="" id="sale" data-value="sale" />
+                <label for="sale"> </label>
+                <p>Распродажа</p>
+              </div>
+            </div>
+          </div>
+        </aside>
+        <section class="content__container">
+          <div class="content__container-header">
+            <p class="content__counter">412 товаров</p>
+            <button class="content_filter-btn">Фильтры</button>
+            <div class="content__select">
+              <div class="content__select__overlay"></div>
+              <div class="content__select__body">
+                <div class="content__select-option">
+                  <p>Сначала дорогие</p>
+                  <svg
+                    width="8"
+                    height="5"
+                    viewBox="0 0 8 5"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M4 4.5L7.4641 0L0.535898 0L4 4.5Z" fill="#202020" />
+                  </svg>
+                </div>
+                <div class="content__select__body_options">
+                  <div class="content__select__body_option" data-value="highPrice">
+                    Сначала дорогие
+                  </div>
+                  <div class="content__select__body_option" data-value="lowPrice">
+                    Сначала недорогие
+                  </div>
+                  <div class="content__select__body_option" data-value="popular">
+                    Сначала популярные
+                  </div>
+                  <div class="content__select__body_option" data-value="new">Сначала новые</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content__container-body"></div>
+        </section>
+      </section>
+    </main>
+    <footer class="footer"></footer>
+    <script src="/scripts/slider.js"></script>
+    <script type="module" src="/scripts/main.js"></script>
+  </body>
+</html>
